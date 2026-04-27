@@ -92,7 +92,7 @@ firstPromise
 
     div.setAttribute('data-qa', 'notification');
     div.classList.add('message', 'error');
-    div.textContent = err;
+    div.textContent = err.message;
     document.body.appendChild(div);
   });
 
